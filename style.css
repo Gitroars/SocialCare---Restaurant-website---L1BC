@@ -1,0 +1,168 @@
+body {
+  background-image: linear-gradient(#4682B4, #00FFFF, #00FA9A)
+}
+
+.navbar{
+  height: 90px; background: #FFEBCD; border-radius: 5px; 
+}
+
+.navbar-left{
+    float:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px
+    
+}
+
+.navbar-right{   
+    float:right;
+    width:500px;
+    padding-right:10px;
+    
+}
+
+.navbar{width:auto;
+    height:100px;
+    background:rgb(248, 238, 225);
+    border-radius:2px;
+}
+ 
+.navbar-right ul{
+    float:left;
+    list-style: none
+}
+
+.navbar-right ul li {
+  float: left;
+  line-height: 80px;
+  text-align: center;
+  position: relative;
+  padding: 8px 12px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar-right ul li a{
+  display: block; text-decoration: none; color: #3c4858; font-weight: bold;
+}
+
+.navbar-right ul li a:hover{
+  display: block; background: #d6d8db; color: whitesmoke
+}
+#bellys-slider{
+  border: 10px; 
+	position: relative; 
+	overflow: hidden; 
+}
+
+#bellys-slider{
+  margin: auto;
+	width: 1400px;
+	height: 650px; 
+}
+
+#isi-slider{
+  position: absolute;
+  width: 3900px;
+  animation-name: Sliding;
+  animation-duration: 16s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#isi-slider img{
+  float: left;
+}
+
+.malasngoding-slider:hover:after { 
+	color: rgba(0,0,0, 0.6);  
+  transition: 2s;
+}
+
+@keyframes Sliding {
+  0%{left: 0px; }
+  10%{ left: -390px;}
+  20%{left: -780px;}
+  30%{left: -1170px;}
+  40%{ left:-1560px; }
+  50%{  left: -1950px;}
+  60%{   left: -2340px; }
+  70%{   left: -2730px; }
+  80%{   left: -3120px; }
+  90%{  left: -3510px;}
+  100%{  left: -3900px;}
+}
+.textBox {
+ width:90%;
+ position: absolute;
+ text-align: left;
+}
+.textBox p{
+  margin: 10px 0 40px;
+}
+.first-items{
+  
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px 20px;
+}
+.first-items img{
+  position: relative;
+  width: 80%;
+  height: 300px;
+  margin: auto
+}
+.second-items{
+  display: grid;
+  
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10x 10px;
+  margin: 20px;
+}
+.second-items img{
+  position: relative;
+  width: 50%;
+  height: 320px;
+  margin: auto;
+  padding-top: 30px;
+}
+.item-button{
+  display: block;
+  text-align: center;
+  padding-top: 40px
+}
+
+.footer{
+  background-color: #FFFFFF; 
+}
+
+.media-text{
+  display: block;
+  text-align: center;
+  margin: 50px;
+  height: 10px;
+  padding-top: 40px;
+ }
+
+.icon img {
+  display: block;
+  margin: auto;
+  height: 80px;
+  width: 80px;
+  padding-top: 70px
+}
+
+.sosmed-button{
+  text-align: center;
+  
+  
+  height: 40px;
+}
+
+.bestsell{
+  padding-top: 90px;
+  padding-left: 120px;
+  padding-bottom: 20px;
+  color: #FFE4B5;
+}
+
