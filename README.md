@@ -2,7 +2,7 @@
 
 CLASS L1BC
 1.Arvin Yuwono
-2.Christopher Alexander Tjiandra
+2. Christopher Alexander Tjiandra
 -----------------------------------
- Restaurant Website with 3 pages 
+A taco restaurant website with 3 pages: home,menu and reservation. 
 
